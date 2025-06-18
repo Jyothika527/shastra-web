@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px 0 20px;  /* Moves heading lower */
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar button {
+    background-color: cyan;
+    color: black;
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.navbar button:hover {
+    background-color: #ff9800;
+}
+
+/* Section Styling */
+.section {
+    display: none;
+    padding: 100px 20px; /* Adds space below navbar */
+}
+
+/* Home Page Image */
+.home-image {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px; /* Adds rounded corners */
+    border: 2px solid cyan; /* Adds a glowing effect */
+}
+
+/* Table Styling */
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    color: white;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+/* Contact Form */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
